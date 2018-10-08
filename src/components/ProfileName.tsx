@@ -6,7 +6,7 @@ interface IProfileNameProps {
   title: string;
 }
 
-class ProfileName extends React.Component<IProfileNameProps, any> {
+export default class ProfileName extends React.Component<IProfileNameProps, any> {
   public render() {
     return (
       <div className={"card-content " + this.props.class}>
@@ -16,5 +16,3 @@ class ProfileName extends React.Component<IProfileNameProps, any> {
     );
   }
 }
-
-export default ProfileName;

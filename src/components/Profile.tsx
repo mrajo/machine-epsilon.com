@@ -17,7 +17,7 @@ interface IProfileState {
   summary: string;
 }
 
-class Profile extends React.Component<any, IProfileState> {
+export default class Profile extends React.Component<any, IProfileState> {
   constructor(props: any) {
     super(props);
     this.state = profile;
@@ -39,5 +39,3 @@ class Profile extends React.Component<any, IProfileState> {
     );
   }
 }
-
-export default Profile;

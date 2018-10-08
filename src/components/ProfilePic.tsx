@@ -4,7 +4,7 @@ interface IProfilePicProps {
   class: string;
 }
 
-class ProfilePic extends React.Component<IProfilePicProps, any> {
+export default class ProfilePic extends React.Component<IProfilePicProps, any> {
   public render() {
     return (
       <div className={"card-content " + this.props.class}>
@@ -17,5 +17,3 @@ class ProfilePic extends React.Component<IProfilePicProps, any> {
     );
   }
 }
-
-export default ProfilePic;

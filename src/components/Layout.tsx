@@ -9,7 +9,7 @@ interface ILayoutProps {
   children?: any;
 }
 
-class Layout extends React.Component<ILayoutProps, any> {
+export default class Layout extends React.Component<ILayoutProps, any> {
   public render() {
     return (
       <>
@@ -28,5 +28,3 @@ class Layout extends React.Component<ILayoutProps, any> {
     );
   }
 }
-
-export default Layout;

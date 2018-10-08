@@ -1,12 +1,12 @@
 import * as React from "react";
-import { ISkillSection } from "./ResumeSkills";
-import SkillRating from "./ResumeSkillRating";
+import { ISkillSection } from "./Skills";
+import SkillRating from "./SkillRating";
 
-interface IResumeSkillSectionProps {
+interface ISkillSectionProps {
   section: ISkillSection;
 }
 
-class ResumeSkillSection extends React.Component<IResumeSkillSectionProps, any> {
+export default class SkillSection extends React.Component<ISkillSectionProps, any> {
   public render() {
     const items = this.props.section.items;
 
@@ -20,5 +20,3 @@ class ResumeSkillSection extends React.Component<IResumeSkillSectionProps, any> 
     );
   }
 }
-
-export default ResumeSkillSection;

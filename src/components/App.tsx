@@ -10,7 +10,7 @@ interface IAppProps {
   };
 }
 
-class App extends React.Component<IAppProps, any> {
+export default class App extends React.Component<IAppProps, any> {
   public render() {
     return (
       <Layout metadata={this.props.metadata}>
@@ -26,5 +26,3 @@ class App extends React.Component<IAppProps, any> {
     );
   }
 }
-
-export default App;

@@ -7,7 +7,7 @@ interface IResumeAccordionProps {
   children?: any;
 }
 
-class ResumeAccordion extends React.Component<IResumeAccordionProps, any> {
+export default class ResumeAccordion extends React.Component<IResumeAccordionProps, any> {
   public render() {
     return (
       <article className={`${styles.accordion} ${this.props.class}`}>
@@ -17,5 +17,3 @@ class ResumeAccordion extends React.Component<IResumeAccordionProps, any> {
     );
   }
 }
-
-export default ResumeAccordion;

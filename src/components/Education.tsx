@@ -9,7 +9,7 @@ interface IResumeEducationProps {
   };
 }
 
-class ResumeEducation extends React.Component<IResumeEducationProps, any> {
+export default class ResumeEducation extends React.Component<IResumeEducationProps, any> {
   public render() {
     return (
       <Accordion title="Education">
@@ -21,5 +21,3 @@ class ResumeEducation extends React.Component<IResumeEducationProps, any> {
     );
   }
 }
-
-export default ResumeEducation;

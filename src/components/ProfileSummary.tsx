@@ -5,7 +5,7 @@ interface IProfileSummaryProps {
   summary: string;
 }
 
-class ProfileSummary extends React.Component<IProfileSummaryProps, any> {
+export default class ProfileSummary extends React.Component<IProfileSummaryProps, any> {
   public render() {
     return (
       <div className={"card-content " + this.props.class}>
@@ -14,5 +14,3 @@ class ProfileSummary extends React.Component<IProfileSummaryProps, any> {
     );
   }
 }
-
-export default ProfileSummary;

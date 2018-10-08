@@ -9,7 +9,7 @@ interface IProfileContactProps {
   github: string;
 }
 
-class ProfileContact extends React.Component<IProfileContactProps, any> {
+export default class ProfileContact extends React.Component<IProfileContactProps, any> {
   public render() {
     return (
       <div className={"card-content " + this.props.class}>
@@ -29,5 +29,3 @@ class ProfileContact extends React.Component<IProfileContactProps, any> {
     );
   }
 }
-
-export default ProfileContact;

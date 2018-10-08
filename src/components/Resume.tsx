@@ -1,11 +1,11 @@
 import * as React from "react";
-import Education from "./ResumeEducation";
-import Objective from "./ResumeObjective";
-import Skills from "./ResumeSkills";
+import Education from "./Education";
+import Objective from "./Objective";
+import Skills from "./Skills";
 import * as styles from "../styles/Resume.m.scss";
 import resume from "../data/resume";
 
-class Resume extends React.Component {
+export default class Resume extends React.Component {
   public render() {
     return (
       <section className={"accordions " + styles.resume}>
@@ -31,5 +31,3 @@ function accordionClickHandler(e: any) {
     target.classList.remove("is-active");
   }
 }
-
-export default Resume;

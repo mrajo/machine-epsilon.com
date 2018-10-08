@@ -6,7 +6,7 @@ interface ISkillRatingProps {
   rating: number;
 }
 
-class ResumeSkillRating extends React.Component<ISkillRatingProps, any> {
+export default class SkillRating extends React.Component<ISkillRatingProps, any> {
   public render() {
     const fullStars = Array.apply(null, { length: Math.floor(this.props.rating) }).map((e: any, i: number) => <i key={i} className="fas fa-star" />);
     const halfStar = Array.apply(null, { length: Math.ceil(this.props.rating) - Math.floor(this.props.rating) }).map((e: any, i: number) => <i key={i} className="fas fa-star-half-alt" />);
@@ -16,5 +16,3 @@ class ResumeSkillRating extends React.Component<ISkillRatingProps, any> {
     );
   }
 }
-
-export default ResumeSkillRating;

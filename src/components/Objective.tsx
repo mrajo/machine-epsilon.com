@@ -5,7 +5,7 @@ interface IResumeObjectiveProps {
   objective: string;
 }
 
-class ResumeObjective extends React.Component<IResumeObjectiveProps, any> {
+export default class ResumeObjective extends React.Component<IResumeObjectiveProps, any> {
   public render() {
     return (
       <Accordion title="Objective">
@@ -14,5 +14,3 @@ class ResumeObjective extends React.Component<IResumeObjectiveProps, any> {
     );
   }
 }
-
-export default ResumeObjective;
