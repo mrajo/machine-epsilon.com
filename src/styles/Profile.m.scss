@@ -2,12 +2,21 @@
 
 .card {
   background-color: #000;
-  width: 285px;
+  width: 340px;
+}
+
+.pic {
+  img {
+    border: 4px solid $green;
+  }
 }
 
 .name {
+  // $border-color: gray;
   h1 {
-    color: #dadada;
+    color: $green;
+    font-family: $family-header;
+    // text-shadow: 1px 0 0 $border-color, -1px 0 0 $border-color, 0 1px 0 $border-color, 0 -1px 0 $border-color, 0.5px 0.5px $border-color, -0.5px -0.5px 0 $border-color, 0.5px -0.5px 0 $border-color, -0.5px 0.5px 0 $border-color;
   }
   p {
     color: #999;
@@ -15,7 +24,7 @@
 }
 
 .summary {
-  border-top: 1px solid #555;
+  border-top: 1px solid $green;
   color: #999;
 }
 
@@ -25,5 +34,8 @@
   }
   li {
     color: #999;
+  }
+  a:hover {
+    text-decoration: underline;
   }
 }

@@ -14,6 +14,10 @@ Taken from https://bulma.io/documentation/overview/customize/
 // $pink-invert: #fff;
 // Add a serif family
 // $family-serif: "Merriweather", "Georgia", serif;
+@import url("//fonts.googleapis.com/css?family=Play|Titillium+Web");
+$green: #45a934;
+$family-header: "Titillium Web", sans-serif;
+$family-content: "Play", sans-serif;
 
 // 3. Set the derived variables
 // Use the new pink as the primary color
@@ -44,3 +48,8 @@ Taken from https://bulma.io/documentation/overview/customize/
 // 6. Import the rest of Bulma
 @import "~bulma/bulma.sass";
 @import "~bulma-accordion/src/sass/index";
+
+.column {
+  display: flex;
+  padding-bottom: 0;
+}

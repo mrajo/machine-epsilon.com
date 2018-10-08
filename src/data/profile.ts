@@ -3,9 +3,9 @@ export default {
   email: "anthony.c@stle.co",
   phone: "8584144967",
   image: "",
-  title: "Web developer",
+  title: "Web developer | DBA | Server Admin",
   summary:
-    "I'm looking for a front-end and/or back-end web development position in the San Diego area in fields such as education, science, sports, or gaming. I am interested in learning progressive web technologies and applying them in pragmatic solutions.",
+    "I'm a web developer with a degree in Computer Science and 18 years of web development experience. I have a passion for learning about progressive web technologies and their applications in pragmatic web solutions.",
   linkedin: "anthony-castle",
-  github: "mrajo",
+  github: "mrajo"
 };

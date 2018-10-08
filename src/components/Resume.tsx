@@ -1,17 +1,17 @@
 import * as React from "react";
+import Education from "./ResumeEducation";
+import Objective from "./ResumeObjective";
+import Skills from "./ResumeSkills";
+import * as styles from "../styles/Resume.m.scss";
+import resume from "../data/resume";
 
 class Resume extends React.Component {
   public render() {
     return (
-      <section className="box accordions">
-        <article className="accordion is-active">
-          <h1>Skills</h1>
-        </article>
-        <article className="accordion">
-          <h1>Experience</h1>
-        </article>
-        <article className="accordion" />
-        <article className="accordion" />
+      <section className={"accordions " + styles.resume}>
+        <Objective objective={resume.objective} />
+        <Skills skills={resume.skills} />
+        <Education education={resume.education} />
       </section>
     );
   }

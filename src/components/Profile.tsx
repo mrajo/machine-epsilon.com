@@ -26,7 +26,7 @@ class Profile extends React.Component<any, IProfileState> {
   public render() {
     return (
       <div className={styles.card}>
-        <ProfilePic />
+        <ProfilePic class={styles.pic} />
         <ProfileName class={styles.name} name={this.state.name} title={this.state.title} />
         <ProfileSummary class={styles.summary} summary={this.state.summary} />
         <ProfileContact
