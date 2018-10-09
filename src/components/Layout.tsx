@@ -1,6 +1,5 @@
 import * as React from "react";
 import Helmet from "react-helmet";
-import "../styles/bulma.scss";
 
 interface ILayoutProps {
   metadata: {

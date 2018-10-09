@@ -1,7 +1,7 @@
 import * as React from "react";
 import Accordion from "./ResumeAccordion";
 import SkillSection from "./SkillSection";
-import * as styles from "../styles/Resume.m.scss";
+import * as styles from "../styles/Skills.m.scss";
 
 export interface ISkillSection {
   title: string;

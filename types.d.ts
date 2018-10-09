@@ -1,8 +1,8 @@
-declare module '*.svg'
-declare module '*.png'
-declare module '*.jpg'
+declare module "*.svg";
+declare module "*.png";
+declare module "*.jpg";
 
-declare module '*.scss' {
+declare module "*.scss" {
   const content: { [className: string]: string };
-  export = content;
+  export default content;
 }

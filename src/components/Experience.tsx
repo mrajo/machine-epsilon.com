@@ -1,7 +1,7 @@
 import * as React from "react";
 import Accordion from "./ResumeAccordion";
 import { IJob, default as Job } from "./Job";
-import * as styles from "../styles/Resume.m.scss";
+import * as styles from "../styles/Experience.m.scss";
 
 interface IExperienceProps {
   experience: IJob[];

@@ -1,5 +1,5 @@
 import * as React from "react";
-import * as styles from "../styles/Resume.m.scss";
+import * as styles from "../styles/Accordion.m.scss";
 
 interface IResumeAccordionProps {
   title: string;

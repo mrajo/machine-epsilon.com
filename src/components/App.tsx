@@ -2,7 +2,7 @@ import * as React from "react";
 import Layout from "./Layout";
 import Profile from "./Profile";
 import Resume from "./Resume";
-import * as styles  from "../styles/App.m.scss";
+import * as styles from "../styles/App.m.scss";
 
 interface IAppProps {
   metadata: {
