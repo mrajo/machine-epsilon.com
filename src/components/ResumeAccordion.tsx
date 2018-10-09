@@ -11,7 +11,7 @@ export default class ResumeAccordion extends React.Component<IResumeAccordionPro
   public render() {
     return (
       <article className={`${styles.accordion} ${this.props.class}`}>
-        <h1>{this.props.title}</h1>
+        <h1>&lt;{this.props.title}&gt;</h1>
         {this.props.children}
       </article>
     );

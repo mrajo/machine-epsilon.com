@@ -1,7 +1,8 @@
 import * as React from "react";
-import Education from "./Education";
 import Objective from "./Objective";
 import Skills from "./Skills";
+import Experience from "./Experience";
+import Education from "./Education";
 import * as styles from "../styles/Resume.m.scss";
 import resume from "../data/resume";
 
@@ -11,6 +12,7 @@ export default class Resume extends React.Component {
       <section className={"accordions " + styles.resume}>
         <Objective objective={resume.objective} />
         <Skills skills={resume.skills} />
+        <Experience experience={resume.experience} />
         <Education education={resume.education} />
       </section>
     );
