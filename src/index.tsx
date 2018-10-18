@@ -7,7 +7,16 @@ import App from "./components/App";
 import * as serviceWorker from "./serviceWorker";
 import siteMetadata from "./data/site";
 
-ReactDOM.render(<App metadata={siteMetadata} />, document.getElementById("root"));
+declare const module: any;
+
+ReactDOM.render(
+  <App metadata={siteMetadata} />,
+  document.getElementById("root")
+);
+
+if (module.hot) {
+  module.hot.accept();
+}
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
