@@ -1,4 +1,5 @@
 import * as React from "react";
+import * as ImageProfile from "../images/profile.jpg";
 
 interface IProfilePicProps {
   class: string;
@@ -10,7 +11,7 @@ export default class ProfilePic extends React.Component<IProfilePicProps, any> {
       <div className={"card-content " + this.props.class}>
         <div className="card-image">
           <figure className="image">
-            <img className="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" />
+            <img src={ImageProfile} />
           </figure>
         </div>
       </div>
