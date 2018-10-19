@@ -17,7 +17,7 @@ export default class Skills extends React.Component<ISkillsProps, any> {
     return (
       <Accordion title="Skills" class={styles.skills}>
         <>
-          {this.props.skills.map((section: ISkillSection) => (<SkillSection section={section} />))}
+          {this.props.skills.map((section: ISkillSection, i: number) => (<SkillSection key={i} section={section} />))}
         </>
       </Accordion>
     );

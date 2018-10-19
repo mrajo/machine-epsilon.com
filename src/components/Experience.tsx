@@ -12,7 +12,7 @@ export default class Experience extends React.Component<IExperienceProps, any> {
     return (
       <Accordion title="Experience" class={styles.experience}>
         <>
-          {this.props.experience.map((job: IJob) => (<Job job={job} />))}
+          {this.props.experience.map((job: IJob, i: number) => (<Job key={i} job={job} />))}
         </>
       </Accordion>
     );

@@ -25,7 +25,7 @@ export default class Job extends React.Component<IJobProps, any> {
       <article>
         <h1>{job.title}, {job.when}</h1>
         <h2>{job.employer}</h2>
-        <p>{desc}</p>
+        {desc}
       </article>
     );
   }
