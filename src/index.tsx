@@ -1,11 +1,13 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import "reset.css/reset.css";
-import "normalize.css/normalize.css";
-import "./index.scss";
 import App from "./components/App";
 import * as serviceWorker from "./serviceWorker";
 import siteMetadata from "./data/site";
+
+import "reset.css/reset.css";
+import "normalize.css/normalize.css";
+import "./index.scss";
+import "./fontawesome";
 
 declare const module: any;
 
