@@ -8,7 +8,7 @@ interface IProfilePicProps {
 export default class ProfilePic extends React.Component<IProfilePicProps, any> {
   public render() {
     return (
-      <div className={"card-content " + this.props.class}>
+      <div className={`card-content ${this.props.class}`}>
         <div className="card-image">
           <figure className="image">
             <img src={ImageProfile} />

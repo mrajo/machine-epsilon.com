@@ -12,7 +12,7 @@ interface IProfileContactProps {
 export default class ProfileContact extends React.Component<IProfileContactProps, any> {
   public render() {
     return (
-      <div className={"card-content " + this.props.class}>
+      <div className={`card-content ${this.props.class}`}>
         <ul className="fa-ul">
           <ContactInfo icon="fas fa-phone" contact={this.props.phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3")} />
           <ContactInfo icon="fas fa-envelope-open">

@@ -9,7 +9,7 @@ import resume from "../data/resume";
 export default class Resume extends React.Component {
   public render() {
     return (
-      <section className={"accordions " + styles.resume}>
+      <section className={`accordions ${styles.resume}`}>
         <Objective objective={resume.objective} />
         <Skills skills={resume.skills} />
         <Experience experience={resume.experience} />

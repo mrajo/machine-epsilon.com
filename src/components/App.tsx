@@ -14,7 +14,7 @@ export default class App extends React.Component<IAppProps, any> {
   public render() {
     return (
       <Layout metadata={this.props.metadata}>
-        <div className={"columns is-gapless" + styles.app}>
+        <div className={`columns is-gapless ${styles.app}`}>
           <div className="column is-narrow">
             <Profile />
           </div>
